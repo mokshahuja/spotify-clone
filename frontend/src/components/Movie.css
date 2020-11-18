@@ -1,0 +1,25 @@
+.song {
+    background-color: #252525;
+    height: 264px;
+    width: 188px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.song__image {
+    margin: 10px;
+    width: 154px;
+    object-fit: contain;
+}
+
+.song__title {
+    width: 154px;
+}
+
+.song__description {
+    width: 154px;
+    overflow: hidden;
+}

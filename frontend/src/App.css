@@ -3,54 +3,18 @@
   padding: 0;
   background-color: #040404;
 }
+
 .app {
   display: flex;
   color: white;
 }
-.app__sidebar {
-  background-color: black;
-  /* width : 230px; */
-  height: 100vh;
-  border: solid lightgray 2px;
-  padding: 5px;
-  flex: 0.20;
-}
 
-.sidebar__icon {
-  display: flex;
-  align-items: center;
-  padding: 2px;
-  padding-left: 20px;
-  border: 1px solid lightgray;
-  border-radius: 20px;
-  margin-bottom: 5px;
-  border: none;
-}
 
-.sidebar__iconText {
-  margin-left: 10px;
-  display: flex;
-  align-items: center;
-  font-size: 18px;
-}
-
-.sidebar__logo {
-  display: flex;
-  margin-top: 10px;
-  margin-left: 10px;
-}
-
-.sidebar__logoName {
-  font-size: 24px;
-  font-weight: 600;
-  display: flex;
-  align-items: center;
-  margin-left: -10px;
-}
 
 .app__body {
   flex: 1;
   display: flex;
   flex-direction: column;
   color: white;
+  background-color: #121212;
 }
