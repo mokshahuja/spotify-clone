@@ -1,0 +1,5 @@
+{
+  "scripts": {
+    "server": "json-server -p3001 --watch db.json"
+  }
+}
